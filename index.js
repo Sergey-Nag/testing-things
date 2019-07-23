@@ -10,7 +10,7 @@ app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
 
-const TOKEN = '772355856:AAGLUZTDOHUFS7u1BhzIFKyYasUSNuHFtnE';
+const TOKEN = '---';
 
 const bot = new Telegram(TOKEN, {
   polling: true
